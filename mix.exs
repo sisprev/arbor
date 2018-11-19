@@ -23,7 +23,7 @@ defmodule Arbor.Mixfile do
   defp aliases do
     [
       "db.reset": ["ecto.drop", "ecto.create", "ecto.migrate"],
-      "test": ["db.reset", "test"]
+      test: ["db.reset", "test"]
     ]
   end
 
